@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import './Card.css';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import FiberManualRecordRounded from '@mui/icons-material/FiberManualRecordRounded';
-import FiberManualRecordOutlined from '@mui/icons-material/FiberManualRecordOutlined';
+import React, { useState, useEffect, useCallback } from 'react'
+import './Card.css'
+import FavoriteIcon from '@mui/icons-material/Favorite'
+import FiberManualRecordRounded from '@mui/icons-material/FiberManualRecordRounded'
+import FiberManualRecordOutlined from '@mui/icons-material/FiberManualRecordOutlined'
 
 const Card = ({ offerPrice, image, name, rating, actualPrice }) => {
   const [index, setIndex] = useState(0)
@@ -32,9 +32,9 @@ const Card = ({ offerPrice, image, name, rating, actualPrice }) => {
         .fill()
         .map((_, i) => {
           if (i === index) {
-            return show && <FiberManualRecordRounded className="dots" />;
+            return show && <FiberManualRecordRounded className="dots" />
           } else {
-            return show && <FiberManualRecordOutlined className="dots" />;
+            return show && <FiberManualRecordOutlined className="dots" />
           }
         })}
 
