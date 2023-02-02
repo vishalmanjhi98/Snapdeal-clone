@@ -14,14 +14,23 @@ function App() {
     alanBtn({
       key:'4d471c7f04902551d05f5f7af8fe12562e956eca572e1d8b807a3e2338fdd0dc/stage',
       onCommand:({command})=>{
-        if(command==='fristCommand'){
-          alert('fristcommand')
-        }
         if(command==='shoe'){
           filter('shoe')
         }
         if(command==='shirt'){
           filter('shirt')
+        }
+        if(command==='sandal'){
+          filter('sandal')
+        }
+        if(command==='pant'){
+          filter('pant')
+        }
+        if(command==='skirt'){
+          filter('skirt')
+        }
+        if(command==='short'){
+          filter('short')
         }
       }
     })

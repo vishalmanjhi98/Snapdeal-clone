@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     padding: 0 7px;
-    
 }
 .LoginT__in>.MuiSvgIcon-root{
     margin: 10px;
@@ -21,4 +20,8 @@
 .LoginT__in:hover{
     background-color: rgb(245,243,243);
     cursor: pointer;
+}
+#llog{
+    font-size: 14px;
+    padding-right: 6%;
 }

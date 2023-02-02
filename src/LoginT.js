@@ -13,8 +13,8 @@ const LoginT = () => {
   return (
      <div className='LoginT'>
         <div className='LoginT__in'>
-            <h2 onClick={() => loginWithRedirect()}>New Customer</h2>
-            <h2>Signup</h2>
+            <h2 id='llog' onClick={() => loginWithRedirect()}>New Customer</h2>
+            <h2 style={{color:'#c7003d', fontSize:'17px'}}>Signup</h2>
         </div>
         <hr></hr>
         <div className='LoginT__in'>
