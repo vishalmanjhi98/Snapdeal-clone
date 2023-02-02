@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react'
 import { Data } from './Data'
 import Card from './Card'
 import Footer from './Footer'
-import Pre_header from './Preheader'
-import Imageslider from './Imageslider'
+import Preheader from './Preheader'
+// import Imageslider from './Imageslider'
 
 function App() {
   const [category, setCategory] = useState([])
@@ -44,7 +44,7 @@ function App() {
   }
   return (
     <div className="App">
-      <Pre_header />
+      <Preheader />
       <Header />
 
       {
