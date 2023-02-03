@@ -5,7 +5,7 @@ import { Data } from './Data'
 import Card from './Card'
 import Footer from './Footer'
 import Preheader from './Preheader'
-// import Imageslider from './Imageslider'
+import Imageslider from './Imageslider'
 
 function App() {
   const [category, setCategory] = useState([])
@@ -46,7 +46,7 @@ function App() {
     <div className="App">
       <Preheader />
       <Header />
-
+      <Imageslider/>
       {
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
           {category.map((item) => (
